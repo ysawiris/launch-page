@@ -14,26 +14,15 @@
     color:whitesmoke;
 }
 
-.hero-background-img {
-    background-image: url("brigitte-tohm-ZoPg1SDXYmg-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-top:200px;
-    padding-bottom:200px;
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
 }
-  
-.hero-background-img:after {
-    content: "";
+
+.centered {
     position: absolute;
-    background-image: url("brigitte-tohm-ZoPg1SDXYmg-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    opacity: 0.5; /* Tone the image down further by giving it transparency */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
